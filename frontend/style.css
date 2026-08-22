@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef3f8;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    color: #102a43;
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    color: #486581;
+    margin-bottom: 30px;
+}
+
+form, #result {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #243b53;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 12px;
+    display: block;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 15px 0;
+    border: 1px solid #bcccdc;
+    border-radius: 6px;
+}
+
+button {
+    width: 100%;
+    background: #102a43;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #243b53;
+}
+
+.card {
+    background: #f8fbff;
+    padding: 15px;
+    margin: 12px 0;
+    border-left: 5px solid #102a43;
+    border-radius: 6px;
+}
+
+.high {
+    color: #b00020;
+    font-weight: bold;
+}
+
+.medium {
+    color: #b36b00;
+    font-weight: bold;
+}
+
+.low {
+    color: #007a3d;
+    font-weight: bold;
+}
+
+.download-btn {
+    display: inline-block;
+    background: #007a3d;
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 6px;
+    margin-top: 15px;
+}

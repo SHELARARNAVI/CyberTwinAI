@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CyberTwin AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>CyberTwin AI</h1>
+    <p class="subtitle">LLM-Assisted Cyber Risk Simulation Platform for SMEs</p>
+
+    <form id="assessmentForm">
+        <h2>Business Profile</h2>
+
+        <input type="text" id="business_name" placeholder="Business Name" required>
+
+        <select id="country">
+            <option>Australia</option>
+            <option>USA</option>
+            <option>UK</option>
+            <option>India</option>
+            <option>Other</option>
+        </select>
+
+        <select id="industry">
+            <option>Healthcare</option>
+            <option>Retail</option>
+            <option>Education</option>
+            <option>Finance</option>
+            <option>Hospitality</option>
+            <option>IT Services</option>
+        </select>
+
+        <h2>Security Assessment</h2>
+
+        <label>MFA Enabled?</label>
+        <select id="mfa">
+            <option>Yes</option>
+            <option>Partially</option>
+            <option>No</option>
+        </select>
+
+        <label>Backups Tested?</label>
+        <select id="backups">
+            <option>Yes</option>
+            <option>Partially</option>
+            <option>No</option>
+        </select>
+
+        <label>Systems Patched?</label>
+        <select id="patching">
+            <option>Yes</option>
+            <option>Partially</option>
+            <option>No</option>
+        </select>
+
+        <label>Admin Privileges Restricted?</label>
+        <select id="admin_control">
+            <option>Yes</option>
+            <option>Partially</option>
+            <option>No</option>
+        </select>
+
+        <label>Endpoint Security Used?</label>
+        <select id="endpoint_security">
+            <option>Yes</option>
+            <option>Partially</option>
+            <option>No</option>
+        </select>
+
+        <label>Staff Training Provided?</label>
+        <select id="staff_training">
+            <option>Yes</option>
+            <option>Partially</option>
+            <option>No</option>
+        </select>
+
+        <label>Logging Enabled?</label>
+        <select id="logging">
+            <option>Yes</option>
+            <option>Partially</option>
+            <option>No</option>
+        </select>
+
+        <label>Incident Response Plan?</label>
+        <select id="incident_response">
+            <option>Yes</option>
+            <option>Partially</option>
+            <option>No</option>
+        </select>
+
+        <button type="submit">Run Assessment</button>
+    </form>
+
+    <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
